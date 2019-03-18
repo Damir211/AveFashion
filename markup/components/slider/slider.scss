@@ -1,0 +1,236 @@
+.slider{
+	width: 100%;
+	background-color: #f8f8f8;
+.slider__wrapper{
+	width: 100%;
+	max-width: 2050px;
+	margin: 0 auto;
+	height: 920px;
+	margin-top: -110px;
+	z-index: 1;
+	background-color: #f8f8f8;
+}
+.slider__element{
+	height: 920px;
+	width: 2050px;
+	position: relative;
+}
+.owl-carousel .owl-item img{
+	width: 2050px;
+	height: 920px;
+}
+.owl-carousel .owl-item .slider__text{
+  position: absolute;
+  top:0;
+  left:50%;
+  margin:180px 0 0 -750px;
+  width: 1500px;
+  text-align: center;
+  font-size: 450px;
+  font-weight: bold;
+  color:#575153;
+  letter-spacing: 270px;
+  font-family: Montserrat Bold,Arial;
+}
+.owl-carousel .owl-item .slider__button{
+	display: block;
+	text-decoration: none;
+	position: absolute;
+	bottom: 120px;
+	right: 320px;
+	width: 338px;
+	height: 55px;
+	line-height: 59px;
+	text-align: center;
+	border: 2px solid #454647;
+	color:#454647;
+	font-family: Montserrat Regular,Arial;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: background-color 0.4s;
+}
+.owl-carousel .owl-item .slider__button:hover{
+	background-color: #00c8c8;
+	border: 2px solid #00c8c8;
+	color:#fff;
+}
+}
+@media only screen and (max-width: 2049px){
+	.slider{
+		.slider__wrapper{
+			max-width: 1920px;
+			max-height: 862px;
+		}	
+		.slider__element{
+			width: 1920px;
+			height: 862px;
+		}
+		.owl-carousel .owl-item img{
+			width: 1920px;
+			height: 862px;
+		}
+	}
+}
+@media only screen and (max-width: 1700px){
+	.slider{
+		.owl-carousel .owl-item .slider__text{
+			margin-top: 120px;
+		}
+	}
+}
+@media only screen and (max-width: 1919px){
+	.slider{
+		.slider__wrapper{
+			max-width: 1920px;
+			height: auto;
+		}	
+		.slider__element{
+			width: 100%;
+			height: auto;
+		}
+		.owl-carousel .owl-item img{
+			width: 100%;
+			height: auto;
+		}
+		.owl-carousel .owl-item .slider__button{
+			bottom: 50px;
+			right: 100px;
+		}
+	}
+}
+@media only screen and (max-width: 1600px){
+	.slider{
+		.owl-carousel .owl-item .slider__text{
+ 			margin:130px 0 0 -520px;
+ 			width: 1040px;
+ 			font-size: 350px;
+ 			letter-spacing: 150px;
+		}
+	}
+}
+@media only screen and (max-width: 1400px){
+	.slider{
+		.owl-carousel .owl-item .slider__text{
+ 			margin:100px 0 0 -520px;
+		}
+	}
+}
+@media only screen and (max-width: 1279px){
+	.slider{
+		.owl-carousel .owl-item .slider__text{
+ 			margin:60px 0 0 -420px;
+ 			width: 840px;
+ 			font-size: 300px;
+ 			letter-spacing: 100px;
+		}
+		.owl-carousel .owl-item .slider__button{
+			bottom: 30px;
+			right: 50px;
+		}
+	}
+}
+
+@media only screen and (max-width: 1023px){
+		.slider{
+			.slider__wrapper{
+				margin-top: 0;
+			}
+		.owl-carousel .owl-item .slider__text{
+ 			margin:60px 0 0 -275px;
+ 			width: 550px;
+ 			font-size: 180px;
+ 			letter-spacing: 80px;
+		}
+		.owl-carousel .owl-item .slider__button{
+			bottom: 30px;
+			right: 30px;
+		}
+	}
+}
+@media only screen and (max-width: 800px){
+		.slider{
+		.owl-carousel .owl-item .slider__text{
+ 			margin:60px 0 0 -240px;
+ 			width: 480px;
+ 			font-size: 150px;
+ 			letter-spacing: 80px;
+		}
+		.owl-carousel .owl-item .slider__button{
+			bottom: 30px;
+			right: 30px;
+		}
+	}
+}
+
+@media only screen and (max-width: 767px){
+	.slider{
+.owl-carousel .owl-item .slider__button{
+
+	bottom: 20px;
+	right: 20px;
+	width: 230px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 14px;
+
+}
+}
+	.slider{
+		.slider__wrapper{
+			height: 270px;
+			overflow: hidden;
+		}	
+		.slider__element{
+			height: 270px;
+			overflow: hidden;
+		}
+		.owl-carousel .owl-item img{
+			height: 270px;
+			width: 600px;
+		}
+	}
+}
+@media only screen and (max-width: 599px){
+	.slider{
+		.owl-carousel .owl-item .slider__text{
+ 			margin:80px 0 0 -175px;
+ 			width: 330px;
+ 			font-size: 100px;
+ 			letter-spacing: 60px;
+		}
+		.owl-carousel .owl-item .slider__button{
+
+	bottom: 20px;
+	right: 20px;
+	width: 180px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 12px;
+
+}
+	}
+}
+@media only screen and (max-width: 479px){
+		.slider{
+		.owl-carousel .owl-item .slider__text{
+ 			margin:80px 0 0 -125px;
+ 			width: 250px;
+ 			font-size: 80px;
+ 			letter-spacing: 40px;
+		}
+		.owl-carousel .owl-item img{
+			margin-left: -130px;
+		}
+		.owl-carousel .owl-item .slider__button{
+
+	bottom: 20px;
+	right: 20px;
+	width: 160px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 11px;
+
+}
+	}
+}

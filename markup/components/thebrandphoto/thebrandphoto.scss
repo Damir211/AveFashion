@@ -1,0 +1,113 @@
+.thebrandphoto{
+	width: 100%;
+}
+.thebrandphoto__wrapper{
+	position: relative;
+	max-width: 2050px;
+	height: 450px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.thebrandphoto__ave{
+	position: absolute;
+	bottom: 0;
+	width: 1550px;
+	margin: 0 0 0 -775px;
+	left:50%;
+	font-family: Montserrat Bold,Arial;
+	font-size: 450px;
+	line-height: 310px;
+	font-weight: bold;
+	letter-spacing: 290px;
+	color:#fff;
+	opacity: 0.3;
+}
+.thebrandphoto__layer{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(51, 51, 51);
+	opacity: 0.749;
+}
+.thebrandphoto__text{
+	position: absolute;
+	top:130px;
+	left:0;
+	width: 100%;
+	letter-spacing: 3px;
+	.bigtext{
+ 		font-size: 48px;
+  		color: rgb(255, 255, 255);
+  		font-family: Montserrat Light,Arial;
+		font-weight: bold;
+		width: 100%;
+		text-align: center;
+		margin: 30px 0 50px 0;
+		span{
+			font-family: Montserrat Bold,Arial;
+			font-weight: normal;
+		}
+	}
+	.smalltext{
+		font-family: Montserrat Light,Arial;
+		font-size: 30px;
+		color: rgb(255, 255, 255);
+		width: 100%;
+		text-align: center;
+		margin: 0;
+		font-weight: bold;
+		letter-spacing: 3px;
+		span{
+			color:#00c8c8;
+		}
+}
+}
+
+@media only screen and (max-width: 1599px){
+	.thebrandphoto__ave{
+		width: 1040px;
+		margin: 0 0 0 -520px;
+		font-size: 350px;
+		letter-spacing: 150px;
+		line-height: 250px;
+	}
+}
+@media only screen and (max-width: 1279px){
+	.thebrandphoto__ave{
+		width: 840px;
+		margin: 0 0 0 -420px;
+		font-size: 300px;
+		letter-spacing: 100px;
+		line-height: 215px;
+	}
+}
+@media only screen and (max-width: 1023px){
+	.thebrandphoto__ave{
+		width: 600px;
+		margin: 0 0 0 -300px;
+		font-size: 200px;
+		letter-spacing: 80px;
+		line-height: 145px;
+	}	
+}
+@media only screen and (max-width: 599px){
+	.thebrandphoto__ave{
+		display: none;
+	}
+	.thebrandphoto__text{
+	top:130px;
+	.bigtext{
+ 		font-size: 30px;
+	}
+	.smalltext{
+		font-size: 25px;
+}
+}
+}
+@media only screen and (max-width: 479px){
+	.thebrandphoto__text{
+	top:100px;
+}
+}
