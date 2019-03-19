@@ -186,6 +186,8 @@
 }
 .btn-items{
 	display: flex;
+	width: 138px;
+	height: 32px;
 	margin: 0 auto 20px auto; 
 	a{
 		text-decoration: none;
@@ -199,6 +201,7 @@
 		i{
 			margin: auto;
 			color:#fff;
+			line-height: 32px;
 		}
 		&:hover{
 			background-color: #00c8c8;
