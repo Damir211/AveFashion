@@ -133,3 +133,10 @@
 		}
 	}
 }
+@media only screen and (max-width: 479px){
+	.mainlookbook__item{
+		.mainlookbook__textblock{
+			opacity: 1;
+		}
+	}
+}

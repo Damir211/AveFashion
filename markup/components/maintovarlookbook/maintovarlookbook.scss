@@ -410,6 +410,18 @@
 		}
 	}
 	.maintovarlookbook__items{
+		.normal-item{
+			.textforitem{
+				opacity: 1;
+			}
+		}
+		.big-item{
+			.textforitem{
+				opacity: 1;
+			}
+		}
+	}
+	.maintovarlookbook__items{
 		width: 300px;
 		&>div{
 			width: 300px;

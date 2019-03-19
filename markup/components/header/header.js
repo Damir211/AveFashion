@@ -12,3 +12,7 @@ $(document).ready(function(){
     	$('.slidebar__icon').css({'display':'none'});
     }
 });
+$(document).ready(function() {
+  $('select').niceSelect();
+});
+  
